@@ -1,0 +1,13 @@
+galaxy_info:
+  author: Mick Pollard <twitter.com/aussielunix>
+  description: Simple role to make sure that Ansible is installed
+  company: Lunix Solutions
+  license: BSD
+  min_ansible_version: 1.8
+  platforms:
+  - name: Ubuntu
+    versions:
+    - trusty
+  categories:
+  - system
+dependencies: []
