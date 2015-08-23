@@ -38,6 +38,9 @@ vagrant up
 ansible-playbook test.yml -vvvv
 ...
 ```
+## TODO
+
+Need to add in circleci test using the circleci docker support.
 
 ## License
 
