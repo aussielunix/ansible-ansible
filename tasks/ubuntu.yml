@@ -1,15 +1,14 @@
 ---
 
-- name: Install pre-reqs for ansible
+- name: Install pre-reqs for ansible (pip)
+  sudo: true
   pip: name={{ item }}
     state=present
   with_items:
     - boto
-    - PyYAML
-    - Jinja2
-    - httplib2
     - awscli
 
 - name: install ansible
+  sudo: true
   pip: name=ansible
     state=present
