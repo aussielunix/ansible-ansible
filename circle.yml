@@ -3,7 +3,8 @@ general:
 
 dependencies:
   pre:
-    - ansible-galaxy install aussielunix.python
+    - sudo pip install PyYAML jinja2 httplib2
+    - sudo pip install ansible
 
 machine:
   environment:
