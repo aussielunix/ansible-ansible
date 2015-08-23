@@ -1,6 +1,6 @@
 # Ansible Role - ansible
 
-![Build Status](https://circleci.com/gh/aussielunix/ansible-ansible/tree/master.svg?style=shield&circle-token=af1c34bff05f50824300dc8b436b9e0a6bd564da "CircleCI Build Status")
+![Build Status](https://circleci.com/gh/aussielunix/ansible-ansible/tree/master.svg?style=shield&circle-token=eb7221c52c9344d91e6436a7290e34535b537d5c "CircleCI Build Status")
 
 This role will ensure that ansible and all dependencies are installed and ready for use.  
 
