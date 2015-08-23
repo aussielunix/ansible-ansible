@@ -1,7 +1,5 @@
 # Ansible Role - ansible
 
-![Build Status](https://circleci.com/gh/aussielunix/ansible-ansible/tree/master.svg?style=shield&circle-token=eb7221c52c9344d91e6436a7290e34535b537d5c "CircleCI Build Status")
-
 This role will ensure that ansible and all dependencies are installed and ready for use.  
 
 ## Requirements
@@ -14,15 +12,17 @@ none
 
 ## Dependencies
 
-None
+[aussielunix.python](https://galaxy.ansible.com/list#/roles/4845)
 
 ## Example Playbook
 
 ```
 - hosts: all
   roles:
+     - aussielunix.python
      - aussielunix.ansible
 ```
+
 ## Hacking
 
 There is an included Vagrant setup for hacking on this module.  

@@ -1,2 +1,3 @@
 **/.envrc
 **/.vagrant
+tests/roles/aussielunix.python

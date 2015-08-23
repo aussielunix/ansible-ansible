@@ -15,6 +15,8 @@ ansible-playbook() {
 }
 
 
+ansible-galaxy install aussielunix.python
+
 echo "ansible and ansible-playbook are now bash aliases"
 
 echo "Done."
